@@ -1,0 +1,131 @@
+@font-face{
+    font-family: 'Rajdhani';
+    src: url(../font/rajdhani/Rajdhani-Medium.ttf) format('openType');
+}
+@font-face{
+    font-family: 'Space Grotesk';
+    src: url(..//font/space-grotesk-cufonfonts/SpaceGrotesk-2.0.0/otf/SpaceGrotesk-Regular.otf) format('OpenType');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+   
+}
+ header{
+    background-image: url("../Illustrations/Game/Batgame1.png");
+
+ }
+ .navbar{
+    padding-top: 3%;
+    border: 1px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: none;
+}
+ .logo{
+     margin-left:10%;
+ }
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.menu{
+    display: flex;
+    margin-left: 40%;
+    font-family: 'Rajdhani';
+    font-size: 150%;
+}
+li{
+    padding: 10%;
+    list-style: none;
+}
+ h1{
+    color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+    font-weight: bold;
+
+}
+.partie1{
+    border: 1px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: none;
+}
+.media{
+    margin-left: 95%;
+    margin-top: -10%;
+    display: grid;
+
+}
+.fleche img{
+    margin-top: 10%;
+    margin-left: 50%;
+}
+.conteneur{
+    background-color:#000000 ;
+    color: #ffffff;
+    border: 1px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: none;
+    border-top:none ;
+}
+h2{
+    color: white;
+    margin-left: 10%;
+    padding-top:5%;
+    font-size: 150%;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+}
+p{
+    margin-top: 2%;
+    font-family: 'Rajdhani';
+}
+.forme{
+   margin-left: 10%;
+}
+
+.checkbox{
+    background-color: #c4c4c4a4;
+    margin-top: 1%;
+    width: 50%;
+    padding: 2%;
+}
+.image img{
+    width: 50%;
+    margin-left: 25%;
+}
+button{
+    background-color: #8f3b3f98;
+    color: #ffffff;
+    margin-left: 45%;
+    margin-top: 5%;
+    padding: 2%;
+    border: none;
+}
+footer{
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: none;
+    border-bottom: none;
+
+}
+.textfoot p{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 55%;
+}
+.media-footer{
+    margin-left: 35%;
+}
+.media-footer img{
+ padding: 2%;
+
+}
